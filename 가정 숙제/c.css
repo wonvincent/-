@@ -1,0 +1,26 @@
+/* styles.css 파일 내용 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.scrollable-container {
+    width: 60%;
+    height: 60%;
+    overflow-y: scroll; /* 세로 스크롤 가능 */
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content {
+    height: 1000px; /* 컨텐츠 높이 설정 */
+    padding: 10px;
+}
